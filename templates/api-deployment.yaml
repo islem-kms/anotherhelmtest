@@ -40,11 +40,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-    app: {{ .Values.labels.app }}
-    env: {{ .Values.labels.env }}
-    tier: {{ .Values.labels.tier }}
-    module: {{ .Values.labels.module }}
-    svc: {{ .Values.labels.svc }}
+      app: {{ .Values.labels.app }}
+      env: {{ .Values.labels.env }}
+      tier: {{ .Values.labels.tier }}
+      module: {{ .Values.labels.module }}
+      svc: {{ .Values.labels.svc }}
   template:
     metadata:
       labels:
