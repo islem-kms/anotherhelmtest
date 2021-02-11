@@ -12,7 +12,7 @@ metadata:
 data:
   APP_DEBUG: "true"
   APP_ENV: development
-  APP_KEY: 
+  APP_KEY: somesecurekey
   APP_LOG_LEVEL: debug
   APP_NAME: Laravel
   APP_URL: http://localhost:8000
@@ -33,7 +33,7 @@ data:
   AUTHORIZATION_URL: /oauth/authorize
   TOKEN_URL: /oauth/token
   REFRESH_URL: /oauth/token/refresh
-  L5_SWAGGER_CONST_HOST: 
+  L5_SWAGGER_CONST_HOST: http://localhost:8000
   ALLOWED_ORIGINS_PATHS: "api/*,oauth/*"
   ALLOWED_ORIGINS_HOSTS: "localhost,localhost:8000"
   MAIL_HOST: nomailhost
