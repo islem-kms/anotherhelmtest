@@ -14,21 +14,21 @@ data:
   APP_ENV: development
   APP_KEY: 
   APP_LOG_LEVEL: debug
-  APP_NAME: 
-  APP_URL: 
+  APP_NAME: Laravel
+  APP_URL: http://localhost:8000
   BROADCAST_DRIVER: redis
   QUEUE_DRIVER: database
   CACHE_DRIVER: file
   SESSION_DRIVER: file
   DB_CONNECTION: mysql
-  DB_DATABASE: 
-  DB_HOST: 
-  DB_PASSWORD: 
+  DB_DATABASE: anydb
+  DB_HOST: anyhost
+  DB_PASSWORD: anypassword
   DB_PORT: "3306"
   DB_USERNAME: admin
   DB_CHARSET: utf8mb4
   DB_COLLATION: utf8mb4_unicode_ci
-  REDIS_HOST: 
+  REDIS_HOST: nohostfornow
   REDIS_PORT: "6379"
   AUTHORIZATION_URL: /oauth/authorize
   TOKEN_URL: /oauth/token
@@ -36,14 +36,14 @@ data:
   L5_SWAGGER_CONST_HOST: 
   ALLOWED_ORIGINS_PATHS: "api/*,oauth/*"
   ALLOWED_ORIGINS_HOSTS: "localhost,localhost:8000"
-  MAIL_HOST: 
+  MAIL_HOST: nomailhost
   MAIL_PORT: "587"
-  MAIL_USERNAME: 
-  MAIL_PASSWORD: 
+  MAIL_USERNAME: nouser
+  MAIL_PASSWORD: nopassword
   MAIL_ENCRYPTION: tls
-  MAIL_FROM_ADDRESS: 
-  MAIL_FROM_NAME: 
+  MAIL_FROM_ADDRESS: noaddress
+  MAIL_FROM_NAME: noname
   LOGIN_URL: {{ .Values.appName }}-nginx-service
-  FRONT_END_URL: 
+  FRONT_END_URL: nourl
   RESET_PASSWORD_PATH: "/public/set-new-password/:token/email/:email"
   ACTIVATE_ACCOUNT_PATH: "/public/activate-account/:token/email/:email"
