@@ -80,18 +80,18 @@ affinity: {}
 
 # Personal params
 
-appNamespace: namespace
+appNamespace: mynamespace
 
-appName: namespace-appname-msname
+appName: development-firstapp-gateway
 
 fluxTag: release-development
 
-imageTag: latest
+imageTag: islemkms/laravel-helm
 
 labels:
-  app: tavie-skin-qutenza
-  env: dev-staging
+  app: firstapp
+  env: development
   tier: backend
-  module: authorization-gateway-coaching
+  module: gateway
   svc: api
   svcNginx: nginx

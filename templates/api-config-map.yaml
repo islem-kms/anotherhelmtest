@@ -12,7 +12,7 @@ metadata:
 data:
   APP_DEBUG: "true"
   APP_ENV: development
-  APP_KEY: somesecurekey
+  APP_KEY: base64:TPTxTtLRf5q57od1Q3hUCazPEZMxPyxHwf6uv+5q7PU=
   APP_LOG_LEVEL: debug
   APP_NAME: Laravel
   APP_URL: http://localhost:8000
