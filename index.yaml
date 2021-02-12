@@ -3,12 +3,12 @@ entries:
   laravel-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-02-11T17:38:09.298477017+01:00"
+    created: "2021-02-12T20:34:34.131637188+01:00"
     description: A Helm chart for Kubernetes
-    digest: a592bc92d0eb4bbd729a58cfeab4f837ace4cda50b577d0e6c54366aa7412e6f
+    digest: a928bab44d275ab33ba63dcaf5d9d4aa7fc14d6d363a749a4df035cc392a2a3c
     name: laravel-helm
     type: application
     urls:
     - https://islem-kms.github.io/anotherhelmtest/laravel-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-11T17:38:09.297798279+01:00"
+generated: "2021-02-12T20:34:34.13040225+01:00"
