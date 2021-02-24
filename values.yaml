@@ -86,7 +86,7 @@ appName: development-firstapp-gateway
 
 fluxTag: release-development
 
-imageTag: islemkms/laravel-helm
+imageTag: islemkms/laravel-helm:generator
 
 labels:
   app: firstapp
